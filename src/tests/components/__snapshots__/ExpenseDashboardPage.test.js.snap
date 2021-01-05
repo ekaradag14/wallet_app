@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expense Dashboard Page Test Scenarios should render ExpenseDashboardPage with expenses 1`] = `
+<div>
+  This is my expense list
+  <Connect(ExpenseListFilters) />
+  <Connect(ExpenseListItem)
+    amount={220}
+    createdAt={100}
+    description="Rent"
+    id={0}
+    key="0"
+    note="This month's rent"
+  />
+  <Connect(ExpenseListItem)
+    amount={340}
+    createdAt={150}
+    description="Gas"
+    id={1}
+    key="1"
+    note="Gas Bill"
+  />
+  <Connect(ExpenseListItem)
+    amount={150}
+    createdAt={280}
+    description="Electricity"
+    id={2}
+    key="2"
+    note=""
+  />
+</div>
+`;
+
+exports[`Expense Dashboard Page Test Scenarios should render no expense text in ExpenseDashboardPage 1`] = `
+<div>
+  This is my expense list
+  <Connect(ExpenseListFilters) />
+  <p>
+    I have no expenses :)
+  </p>
+</div>
+`;

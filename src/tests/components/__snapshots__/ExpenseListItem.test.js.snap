@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expense List Item Test Scenarios should render the item correctly 1`] = `
+<div>
+  <h3>
+     
+    Rent
+     
+  </h3>
+  <p>
+    Your 
+    Rent
+     was worth 
+    220
+     ₺.
+  </p>
+  <p>
+    Your noted 
+    This month's rent
+     .
+  </p>
+  <p>
+     You made this expense at 
+    Thu Jan 01 1970
+  </p>
+  <Link
+    className="edit-todo"
+    to="/edit/0"
+  >
+    Edit
+  </Link>
+  <button
+    className="remove-todo"
+    onClick={[Function]}
+  >
+    Remove
+  </button>
+</div>
+`;
+
+exports[`Expense List Item Test Scenarios should show default note text 1`] = `
+<div>
+  <h3>
+     
+    Electricity
+     
+  </h3>
+  <p>
+    Your 
+    Electricity
+     was worth 
+    150
+     ₺.
+  </p>
+  <p>
+    You did not take any notes
+  </p>
+  <p>
+     You made this expense at 
+    Thu Jan 01 1970
+  </p>
+  <Link
+    className="edit-todo"
+    to="/edit/2"
+  >
+    Edit
+  </Link>
+  <button
+    className="remove-todo"
+    onClick={[Function]}
+  >
+    Remove
+  </button>
+</div>
+`;

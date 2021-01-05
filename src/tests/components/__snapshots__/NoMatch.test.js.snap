@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`No Match Page Test Scenarios should render the item correctly 1`] = `
+<h3>
+  No match for 
+  <code>
+    No Man's Land
+  </code>
+  <Link
+    to="/"
+  >
+    Go Home 
+  </Link>
+   or Go Hard
+</h3>
+`;
