@@ -31,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --onlyChanged [--config=jest.config.json] test.js",
     "eject": "react-scripts eject",
-    "heroku-postbuild":"yarn run build:prod"
+    "heroku-postbuild":"build"
   },
   "eslintConfig": {
     "extends": [
