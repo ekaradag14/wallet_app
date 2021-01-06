@@ -1,6 +1,6 @@
 import getVisibleExpenses from '../../selectors/expenses';
 import expenses from '../fixtures/expenses'
-describe.skip('Expense Selector Scenarios', () => {
+describe('Expense Selector Scenarios', () => {
     let exampleExpenses,
         exampleFilters,
         exampleTextFilteredExpenses,
@@ -19,26 +19,7 @@ describe.skip('Expense Selector Scenarios', () => {
     
     beforeEach(() => {
 
-    exampleExpenses = [
-      {
-        description: 'Rent',
-        note: "This month's rent",
-        amount: 220,
-        createdAt: 100,
-      },
-      {
-        description: 'Gas',
-        note: 'Gas Bill',
-        amount: 340,
-        createdAt: 150,
-      },
-      {
-        description: 'Electricity',
-        note: 'Electricity Bill',
-        amount: 150,
-        createdAt: 280,
-      },
-    ];
+    exampleExpenses = expenses;
 
     exampleFilters = {text: '', sortBy: null, startDate: null, endDate: null};
     });

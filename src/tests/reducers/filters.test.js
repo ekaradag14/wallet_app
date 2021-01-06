@@ -1,6 +1,6 @@
 import filtersReducer from '../../reducers/filters';
 
-describe.skip('Filter Reducer Test Scenarios', () => {
+describe('Filter Reducer Test Scenarios', () => {
 let filtersReducerDefaultState;
 let action = {};
 beforeAll(() => {

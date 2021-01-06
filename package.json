@@ -6,8 +6,6 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
-    "chai": "^4.2.0",
-    "enzyme": "^3.11.0",
     "moment": "^2.29.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
@@ -21,16 +19,19 @@
     "react-scripts": "4.0.1",
     "redux": "^4.0.5",
     "sass-loader": "^10.1.0",
+    "source-map-explorer": "^2.5.1",
     "style-loader": "^2.0.0",
     "uuid": "^8.3.2",
     "validator": "^13.5.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --onlyChanged [--config=jest.config.json] test.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild":"yarn run build:prod"
   },
   "eslintConfig": {
     "extends": [
@@ -52,11 +53,8 @@
   },
   "devDependencies": {
     "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
-    "chai-as-promised": "^7.1.1",
     "cross-env": "^7.0.3",
-    "enzyme-to-json": "^3.6.1",
-    "mocha": "^8.2.1",
-    "rewire": "^5.0.0",
-    "sinon": "^9.2.1"
+    "enzyme": "^3.11.0",
+    "enzyme-to-json": "^3.6.1"
   }
 }

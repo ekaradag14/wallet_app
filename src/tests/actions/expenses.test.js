@@ -1,6 +1,6 @@
 import { addExpense, editExpense, removeExpense } from '../../actions/expenses';
 
-describe.skip('Expense actions test scenarios', () =>{
+describe('Expense actions test scenarios', () =>{
 
 test('should setup remove expense action object', () => {
   const action = removeExpense({ id: '123abc' });

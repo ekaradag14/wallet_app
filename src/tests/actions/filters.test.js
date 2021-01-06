@@ -1,6 +1,6 @@
 import {setTextFilter, sortByAmount, sortByDate, setStartDate, setEndDate} from '../../actions/filters';
 
-describe.skip('Filter actions test scenarios', () =>{
+describe('Filter actions test scenarios', () =>{
 
 test('should set text filter', () => {
   expect(setTextFilter('foo')).toEqual({

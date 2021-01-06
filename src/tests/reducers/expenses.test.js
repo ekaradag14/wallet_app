@@ -1,6 +1,6 @@
 import expensesReducer from '../../reducers/expenses';
 
-describe.skip('Expenses Reducer Test Scenarios',()=> {
+describe('Expenses Reducer Test Scenarios',()=> {
 let exampleExpense;
  let action = {};
 

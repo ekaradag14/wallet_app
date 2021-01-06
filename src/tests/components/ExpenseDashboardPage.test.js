@@ -4,7 +4,7 @@ import { ExpenseDashboardPage } from '../../components/ExpenseDashboardPage';
 import expenses from '../fixtures/expenses'
 import toJSON from 'enzyme-to-json';
  
-describe.skip('Expense Dashboard Page Test Scenarios', () => {
+describe('Expense Dashboard Page Test Scenarios', () => {
 test('should render ExpenseDashboardPage with expenses', () => {
   const wrapper = shallow(<ExpenseDashboardPage expenses={expenses} />);
   expect(toJSON(wrapper)).toMatchSnapshot();

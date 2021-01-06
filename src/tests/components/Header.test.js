@@ -3,7 +3,7 @@ import { shallow } from 'enzyme'// //Shallow es solo para trabajar con component
 import toJSON from 'enzyme-to-json'//Es paquete para cambiar el formato de nuestra snapshot para ser mas limpiar cuando usamos enzymeö
 import Header from '../../components/Header'
 
-describe.skip('Header Component Testing Scenarios', ()=> {
+describe('Header Component Testing Scenarios', ()=> {
 
     test('should render Header correctly', () => {
       const wrapper = shallow(<Header />);

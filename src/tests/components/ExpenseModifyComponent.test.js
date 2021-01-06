@@ -6,7 +6,7 @@ import toJSON from 'enzyme-to-json'
 import expenses from '../fixtures/expenses'
 import {SingleDatePicker} from 'react-dates'
 
-describe.skip('Expense Modify Component Test Scenarios', () => {
+describe('Expense Modify Component Test Scenarios', () => {
     let useEffect;
     let mockUseEffect = () => { //Es de una solución de internet
         useEffect.mockImplementationOnce((f) => f());
