@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
+    "express": "^4.17.1",
     "moment": "^2.29.1",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
@@ -30,8 +31,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --onlyChanged [--config=jest.config.json] test.js",
-    "eject": "react-scripts eject",
-    "heroku-postbuild":"build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
