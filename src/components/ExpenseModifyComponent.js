@@ -15,7 +15,7 @@ export const ExpenseModifyComponent = (props) => {
   const [isCalendarFocused, setIsCalendarFocused] = useState(false);
 
   //Si tenemos un expense(Estamos editando) pasamoslo
-  React.useEffect(() => { //Usamos con react porque necesitamos el para usar in jest. (No hay ninguna lógica es solo funciona asi)
+  React.useEffect(({expense = false}) => { //Usamos con react porque necesitamos el para usar in jest. (No hay ninguna lógica es solo funciona asi)
     if (!!props.expense) {
       setExpenseName(props.expense.description);
       setExpenseValue(props.expense.amount);

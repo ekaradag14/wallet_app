@@ -1,4 +1,6 @@
-export default [
+export default array;
+
+let  array = [
   {
     id: 0,
     description: 'Rent',

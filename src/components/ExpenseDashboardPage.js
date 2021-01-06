@@ -5,7 +5,6 @@ import ExpenseListItem from "./ExpenseListItem";
 //Importamos el función para filtrar nuestra store
 import selectExpenses from "../selectors/expenses";
 import ExpenseListFilters from "./ExpenseListFilters";
-import expenses from '../tests/fixtures/expenses';
 
 export const ExpenseDashboardPage = ({ expenses }) => { //Exportamos este para probar con jest.js
   const listIt = expenses.map((element) => (
